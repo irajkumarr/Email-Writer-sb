@@ -14,7 +14,4 @@ public class EmailRequest {
 
     @NotBlank(message = "Email content cannot be blank")
     private String emailContent;
-
-    @NotBlank(message = "Email tone cannot be blank")
-    private String tone = "professional";
 }
